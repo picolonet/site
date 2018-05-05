@@ -1,0 +1,231 @@
+@font-face {
+  font-family: avenirLight;
+  src: url('../fonts/AvenirLTStd-Light.otf');
+}
+
+body {}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 33px;
+  letter-spacing: 5px;
+}
+
+h2 {
+  font-size: 30px;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 25px;
+  letter-spacing: 3px;
+  line-height: 35px;
+  font-weight: normal;
+}
+
+h4 {
+  font-size: 22px;
+  margin: 0px;
+  letter-spacing: 2px;
+  line-height: 35px;
+  font-weight: normal;
+}
+
+p {
+  font-size: 20px;
+  margin: 0px;
+  letter-spacing: 1px;
+  line-height: 35px;
+}
+
+a {
+  letter-spacing: 0.1em;
+  color: #8C8CF7;
+}
+
+li {
+  font-size: 18px;
+  margin: 0px;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+section {
+  font-family: 'avenirLight';
+}
+
+#fullpage {
+  visibility: hidden;
+}
+
+#page1, #page2, #page5 {
+  text-align: center;
+}
+
+#particles1, #particles5 {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  z-index: -100;
+}
+
+#particles2 {
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  z-index: 0;
+  top: 0;
+}
+
+#particles3 {
+  position: absolute;
+  width: 40%;
+  height: 70%;
+  z-index: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#particles4 {
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  z-index: 0;
+  right: 0;
+  top: 0;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+}
+
+.btn-submit {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 15px;
+  background: #8C8CF7;
+  font-weight: 200;
+}
+
+.btn-submit:hover {
+  color: #8C8CF7;
+  background: white;
+  border-color: #8C8CF7;
+}
+
+.follow-logo {
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+}
+
+#mc_embed_signup .button {
+  color: white;
+  font-size: 13px;
+  background: #FF2400;
+  letter-spacing: 0.1em;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+#mc_embed_signup .button:hover {
+  color: #FF2400;
+  background: white;
+}
+
+#page6 {
+  text-align: center;
+  color: #E6BB3F;
+}
+
+#page7 {
+  text-align: center;
+  color: #312a6c;
+}
+
+.shadow {
+  box-shadow: 0 5px 15px -2px rgba(10, 16, 34, .4);
+}
+
+
+/*.shadow:hover {
+  box-shadow: 0 60px 120px -10px rgba(10, 16, 34, .2);
+}*/
+
+.col-header {
+  color: #FF2400
+}
+
+.col-header0 {
+  color: #29abe2
+}
+
+.col-header1 {
+  color: #E6BB3F
+}
+
+.col-header2 {
+  color: #FD608C
+}
+
+.col-header3 {
+  color: #FD8824
+}
+
+.col-header4 {
+  color: #AAA037
+}
+
+.box1 {
+  background: white;
+  border-radius: 10px;
+  color: black;
+  padding: 20px;
+  margin: 20px;
+  text-align: left;
+}
+
+.firstrow {
+  margin-top: 150px;
+}
+
+.main-desc {
+  font-size: 20px;
+  margin: 0px 20px;
+  letter-spacing: 1.5px;
+  line-height: 30px;
+}
+
+.col-desc {
+  font-size: 17px;
+  margin: 10px 0px;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+.box1 li {
+  font-size: 17px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+#fp-nav ul:hover .fp-tooltip {
+  right: 20px;
+  transition: opacity 0.2s ease-in;
+  width: auto;
+  opacity: 1;
+  color: black;
+  font-family: avenirLight;
+  font-size: 12px;
+}

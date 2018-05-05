@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118795518-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-118795518-1');
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="js/modernizr.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Picolo</title>
+    <meta name="description" content="Ethereum based open database network">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.css' rel='stylesheet' type='text/css'>
+    <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+    <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css' rel='stylesheet' type='text/css'>
+    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/roadmap.css">
+    <link href='css/index.css' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <container id="fullpage">
+        <section id="page1" class="wow fadeIn">
+            <div id="particles2"></div>
+            <div class="content">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 style="text-transform: uppercase">Welcome to the picolo project</h1>
+                        <br>
+                        <p style="font-weight:normal">Picolo is an ethereum based open databse network</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <!--<div class="row">
+                            <a href="Whitepaper.pdf" class="btn btn-default btn-submit">Paper</a>
+                        </div>
+                        <br> 
+                        <p id="feedback" style="font-weight:normal">Get 100 picolos for paper <a id='popup' href='javascript:void(0)'>feedback</a></p>
+                        <br> -->
+                        <!-- Begin MailChimp Signup Form -->
+                        <div id="mc_embed_signup">
+                            <form action="https://picolo.us16.list-manage.com/subscribe/post?u=6f65175a9b108cf8e196d05a5&amp;id=2397ef2519" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                <div id="mc_embed_signup_scroll">
+                                    <label for="mce-EMAIL" style="font-weight:normal;letter-spacing:1px;">Signup if you like to access our paper</label>
+                                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email" required style="font-family:avenirLight;">
+                                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                        <input type="text" name="b_6f65175a9b108cf8e196d05a5_2397ef2519" tabindex="-1" value="">
+                                    </div>
+                                    <div class="clear">
+                                        <input type="submit" value="Sign up" name="subscribe" id="mc-embedded-subscribe" class="button">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!--End mc_embed_signup-->
+                        <br>
+                        <p>Questions? Join our <a href="https://t.me/picolonet" target="_blank">telegram</a></p>
+                        <br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Follow us on: <a href='https://twitter.com/picolonetwork' target="_blank "><img src='img/twitter_round.svg' title='Twitter' class='follow-logo'/></a>
+                            <a href='https://medium.com/@picolonet' target="_blank"><img src='img/medium.svg' title='Medium' class='follow-logo'/></a>
+                            <a href='https://www.reddit.com/user/picolonet' target="_blank"><img src='img/reddit.svg' title='Reddit' class='follow-logo'/></a>
+                        </p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </container>
+    <script src="js/index.js "></script>
+    <script src="js/particles.min.js "></script>
+    <script src="js/embed.js "></script>
+    <script type="text/javascript ">
+    particlesJS.load('particles2', 'assets/particles2.json', function() {});
+    </script>
+</body>
+
+</html>
