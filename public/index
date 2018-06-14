@@ -34,8 +34,8 @@
 <body>
     <container id="fullpage">
         <section id="page1" class="wow fadeIn">
-            <div id="particles2"></div>
-            <div class="content">
+<!--             <div id="particles2"></div>
+ -->            <div class="content">
                 <div class="row">
                     <div class="col-md-12">
                         <h1 style="text-transform: uppercase">Welcome to the picolo project</h1>
@@ -89,7 +89,7 @@
     <script src="js/particles.min.js "></script>
     <script src="js/embed.js "></script>
     <script type="text/javascript ">
-    particlesJS.load('particles2', 'assets/particles2.json', function() {});
+    //particlesJS.load('particles2', 'assets/particles2.json', function() {});
     </script>
 </body>
 
