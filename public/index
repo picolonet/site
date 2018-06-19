@@ -40,7 +40,7 @@
                     <div class="col-md-12">
                         <h1 style="text-transform: uppercase">Welcome to the picolo project</h1>
                         <br>
-                        <p style="font-weight:normal">Picolo is an ethereum based open databse network</p>
+                        <p style="font-weight:normal">Picolo is an open database network for web 3.0</p>
                     </div>
                 </div>
                 <div class="row">
@@ -52,12 +52,12 @@
                         <p id="feedback" style="font-weight:normal">Get 100 picolos for paper <a id='popup' href='javascript:void(0)'>feedback</a></p>
                         <br> -->
                         <!-- Begin MailChimp Signup Form -->
-                        <div id="mc_embed_signup">
+                        <!-- <div id="mc_embed_signup">
                             <form action="https://picolo.us16.list-manage.com/subscribe/post?u=6f65175a9b108cf8e196d05a5&amp;id=2397ef2519" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                                 <div id="mc_embed_signup_scroll">
                                     <label for="mce-EMAIL" style="font-weight:normal;letter-spacing:1px;">Signup if you like to access our paper</label>
                                     <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email" required style="font-family:avenirLight;">
-                                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                     real people should not fill this in and expect good things - do not remove this or risk form bot signups
                                     <div style="position: absolute; left: -5000px;" aria-hidden="true">
                                         <input type="text" name="b_6f65175a9b108cf8e196d05a5_2397ef2519" tabindex="-1" value="">
                                     </div>
@@ -66,8 +66,11 @@
                                     </div>
                                 </div>
                             </form>
-                        </div>
+                        </div> -->
                         <!--End mc_embed_signup-->
+                        <div class="row">
+                            <p>Read our <a href="/paper" class="btn btn-default btn-submit">paper</a>
+                        </div>
                         <br>
                         <p>Questions? Join our <a href="https://t.me/picolonet" target="_blank">telegram</a></p>
                         <br>
