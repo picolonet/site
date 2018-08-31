@@ -1,18 +1,50 @@
 {
-  "hosting": {
-    "public": "public",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**",
-      "**/src/**",
-      "**/website/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index"
-      }
-    ]
-  }
+    "hosting":
+    {
+        "public": "public",
+        "ignore": [
+            "firebase.json",
+            "**/.*",
+            "**/node_modules/**",
+            "**/src/**",
+            "**/website/**"
+        ],
+        "rewrites": [
+        {
+            "source": "**",
+            "destination": "/index.html"
+        },
+        {
+            "source": "404.html",
+            "destination": "/index.html"
+        }],
+        "redirects": [
+        {
+            "source": "/paper",
+            "destination": "/paper.html",
+            "type": 302
+        },
+        {
+            "source": "/404.html",
+            "destination": "/index.html",
+            "type": 301
+        }],
+        "headers": [
+        {
+            "source": "/paper",
+            "headers": [
+            {
+                "key": "Content-type",
+                "value": "application/html"
+            }]
+        },
+        {
+            "source": "/index",
+            "headers": [
+            {
+                "key": "Content-type",
+                "value": "application/html"
+            }]
+        }]
+    }
 }
