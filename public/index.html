@@ -1,107 +1,303 @@
 <!DOCTYPE html>
-<html class="no-js">
-
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118795518-1"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-118795518-1');
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-    <script src="js/modernizr.js"></script>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Picolo</title>
-    <meta name="description" content="Ethereum based open database network">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.css' rel='stylesheet' type='text/css'>
-    <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
-    <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
-    <link href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css' rel='stylesheet' type='text/css'>
-    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/roadmap.css">
-    <link href='css/index.css' rel='stylesheet' type='text/css'>
-</head>
-
-<body>
-    <container id="fullpage">
-        <section id="page1" class="wow fadeIn">
-<!--             <div id="particles2"></div>
- -->            <div class="content">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1 style="text-transform: uppercase">Welcome to the picolo project</h1>
-                        <br>
-                        <p style="font-weight:normal">Picolo is an open database network for web 3.0</p>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118795518-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-118795518-1');
+        </script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Picolo - building nuts and bolts for web3</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+        <!-- Icon -->
+        <link rel="stylesheet" type="text/css" href="assets/fonts/line-icons.css">
+        <!-- Slicknav -->
+        <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">
+        <!-- Owl carousel -->
+        <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/owl.theme.css">
+        <!-- Slick Slider -->
+        <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
+        <!-- Animate -->
+        <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+        <!-- Main Style -->
+        <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+        <!-- Responsive Style -->
+        <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    </head>
+    <body>
+        <header id="header-wrap">
+            <!-- Navbar Start -->
+            <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar indigo">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        <span class="icon-menu"></span>
+                        <span class="icon-menu"></span>
+                        <span class="icon-menu"></span>
+                        </button>
+                        <!-- <a href="index.html" class="navbar-brand"><img class="logo" src="assets/img/pi.svg" alt=""></a> -->
+                    </div>
+                    <div class="collapse navbar-collapse" id="main-navbar">
+                        <ul class="navbar-nav mr-auto w-100 justify-content-left clearfix">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">
+                                    About
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#research">
+                                    Research
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#findUs">
+                                    Find us
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#jobs">
+                                    Jobs
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <!--<div class="row">
-                            <a href="Whitepaper.pdf" class="btn btn-default btn-submit">Paper</a>
-                        </div>
-                        <br> 
-                        <p id="feedback" style="font-weight:normal">Get 100 picolos for paper <a id='popup' href='javascript:void(0)'>feedback</a></p>
-                        <br> -->
-                        <!-- Begin MailChimp Signup Form -->
-                        <!-- <div id="mc_embed_signup">
-                            <form action="https://picolo.us16.list-manage.com/subscribe/post?u=6f65175a9b108cf8e196d05a5&amp;id=2397ef2519" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                                <div id="mc_embed_signup_scroll">
-                                    <label for="mce-EMAIL" style="font-weight:normal;letter-spacing:1px;">Signup if you like to access our paper</label>
-                                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email" required style="font-family:avenirLight;">
-                                     real people should not fill this in and expect good things - do not remove this or risk form bot signups
-                                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                                        <input type="text" name="b_6f65175a9b108cf8e196d05a5_2397ef2519" tabindex="-1" value="">
-                                    </div>
-                                    <div class="clear">
-                                        <input type="submit" value="Sign up" name="subscribe" id="mc-embedded-subscribe" class="button">
-                                    </div>
+                <!-- Mobile Menu Start -->
+                <ul class="mobile-menu navbar-nav">
+                    <li>
+                        <a class="page-scroll" href="#about">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#research">
+                            Research
+                        </a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#findUs">
+                            Find us
+                        </a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#jobs">
+                            Jobs
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div id="hero-area" class="hero-area-bg">
+                <div class="overlay"></div>
+                <div class="container center-content">
+                    <div class="row justify-content-center">
+                        <div class="col-md-12 col-lg-12 col-sm-12">
+                            <div class="contents text-center">
+                                <h2>Welcome to the Picolo project</h2>
+                                <div class="wow fadeIn" data-wow-delay="0.5s">
+                                    <img class="logo-big" src="assets/img/pi.svg" alt="">
                                 </div>
-                            </form>
-                        </div> -->
-                        <!--End mc_embed_signup-->
-                        <div class="row">
-                            <p>Read our <a href="/paper.html" class="btn btn-default btn-submit">Whitepaper</a>
+                                <h4>Picolo is an open database network for web3</h4>
+                                <br>
+                                <div class="header-button">
+                                    <a target="_blank" href="https://github.com/picolonet/storage" class="btn btn-common">Try it</a>
+                                </div>
+                            </div>
                         </div>
-                        <!--<br>
-                        <p>Questions? Join our <a href="https://t.me/picolonet" target="_blank">telegram</a></p>-->
-                        <br>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <p>Find us on: <a href='https://twitter.com/picolonetwork' target="_blank "><img src='img/twitter_round.svg' title='Twitter' class='follow-logo'/></a>
-                            <a href='https://medium.com/picolonet' target="_blank"><img src='img/medium.svg' title='Medium' class='follow-logo'/></a>
-                            <a href='https://www.reddit.com/r/picolonet' target="_blank"><img src='img/reddit.svg' title='Reddit' class='follow-logo'/></a>
-                            <a href='https://github.com/picolonet' target="_blank"><img src='img/octocat.svg' title='Github' class='follow-logo'/></a>
-                        </p>
-                        <br>
-                    </div>
+            </div>
+        </header>
+        <section id="about" class="section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">About</h2>
                 </div>
                 <div class="row">
-                    <div class="col-md-12">
-                        <p>We are building our core engineering team which currently has two founders. <a href='jobs.html' target="_blank ">Apply</a>
-                        </p>
-                        <br>
+                    <div class="col-md-8 col-lg-8 col-xs-12">
+                        <div class="services-item wow fadeInLeft" data-wow-delay="0.3s">
+                            <p>We are two ex-Google engineers building the data and network layers for web3</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-    </container>
-    <script src="js/index.js "></script>
-    <script src="js/particles.min.js "></script>
-    <script src="js/embed.js "></script>
-    <script type="text/javascript ">
-    //particlesJS.load('particles2', 'assets/particles2.json', function() {});
-    </script>
+        <section id="research" class="section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Research</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-lg-8 col-xs-12">
+                        <div class="services-item wow fadeInLeft" data-wow-delay="0.3s">
+                            <p>We are sponsoring research fellowships of USD 25,000 each for work in the following areas:</p>
+                            <br>
+                            <ul>
+                                <li>Attribute based encryption
+                                </li>
+                                <li>Data-first compute
+                                </li>
+                                <li>Limited knowledge sharing
+                                </li>
+                                <li>Quantifying data leakage and privacy loss
+                                </li>
+                                <li>Building a faster p2p overlay network than the state of the art
+                                </li>
+                                <li>Distributed query processing on a p2p overlay network
+                                </li>
+                                <li>Incentive design
+                                </li>
+                            </ul>
+                            <br>
+                            <p>Please contact us at <a href="mailto:apply@picolo.network">apply@picolo.network</a> if you like to work with us on any of the above topics. Remote applicants welcome.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="findUs" class="section-padding text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-header text-center">
+                            <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Find us</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-lg-8">
+                        <div class="services-item wow fadeInLeft" data-wow-delay="0.3s">
+                            <p class="wow fadeInUp" data-wow-delay="0.3s">Sign up for early beta access</p>
+                            <!-- Begin MailChimp Signup Form -->
+                            <div id="mc_embed_signup">
+                                <form action="https://picolo.us16.list-manage.com/subscribe/post?u=6f65175a9b108cf8e196d05a5&amp;id=2397ef2519" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                    <div class="subscribe" id="mc_embed_signup_scroll">
+                                        <input type="email" value="" name="EMAIL" class="email form-control" id="mce-EMAIL" placeholder="Email">
+                                        <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                            <input type="text" name="b_6f65175a9b108cf8e196d05a5_2397ef2519" tabindex="-1" value="">
+                                        </div>
+                                        <button class="btn-submit" type="submit" id="mc-embedded-subscribe"><i class="lni-arrow-right"></i></button>
+                                    </div>
+                                </form>
+                            </div>
+                            <!--End mc_embed_signup-->
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-8 col-md-8 col-lg-8">
+                        <div class="services-item wow fadeInLeft" data-wow-delay="0.3s">
+                            <p> Follow us:  <a href='https://twitter.com/picolonetwork' target="_blank "><img src='assets/img/twitter_round.svg' title='Twitter' class='follow-logo'/></a>
+                            <a href='https://medium.com/picolonet' target="_blank"><img src='assets/img/medium.svg' title='Medium' class='follow-logo'/></a>
+                            <a href='https://www.reddit.com/r/picolonet' target="_blank"><img src='assets/img/reddit.svg' title='Reddit' class='follow-logo'/></a>
+                            <a href='https://github.com/picolonet' target="_blank"><img src='assets/img/octocat.svg' title='Github' class='follow-logo'/></a>
+                            <a href='https://gitter.im/picolonet/general' target="_blank"><img src='assets/img/gitter.svg' title='Gitter' class='follow-logo'/></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="jobs" class="section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Jobs</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-lg-8 col-xs-12">
+                    <div class="services-item wow fadeInLeft" data-wow-delay="0.3s">
+                        <div class="job-title">
+                            <ul>
+                                <li>Distributed Systems Engineer</li>
+                            </ul>
+                        </div>
+                        <br>
+                        <div class="job-desc">
+                            <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style="font-size:13pt;color:rgb(0,0,0);background-color:transparent;font-weight:700;vertical-align:baseline;white-space:pre-wrap">Synopsis</span></p><br>
+                            <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style="font-size:11pt;color:rgb(0,0,0);background-color:transparent;vertical-align:baseline;white-space:pre-wrap">Picolo is a well-funded pre-launch startup by two ex-Google engineers in SF Bay area. The startup is building a fully decentralized distributed data network to support web3 apps. The technology is disruptive to incumbent web2 applications such as Facebook/Twitter/Google/Snapchat while also supporting applications built for blockchains such as Ethereum. Checkout our whitepaper at </span><a href="https://picolo.network/paper"><span style="font-size:11pt;color:rgb(17,85,204);background-color:transparent;vertical-align:baseline;white-space:pre-wrap">https://picolo.network/paper</span></a><span style="font-size:11pt;color:rgb(0,0,0);background-color:transparent;vertical-align:baseline;white-space:pre-wrap">. </span></p>
+                            <br>
+                            <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style="font-size:11pt;color:rgb(0,0,0);background-color:transparent;vertical-align:baseline;white-space:pre-wrap">If this sounds exciting to you, read on !</span></p>
+                            <br>
+                            <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style="font-size:13pt;color:rgb(0,0,0);background-color:transparent;font-weight:700;vertical-align:baseline;white-space:pre-wrap">What you will be doing</span></p><br>
+                            <ul style="margin-top:0pt;margin-bottom:0pt;font-size: 11pt">
+                                <li>Build a decentralized network of nodes storing shards of data to be shared in a peer to peer network.
+                                </li>
+                                <li>Design decentralized app SDKs and API's to handle sensitive and confidential data.
+                                </li>
+                                <li>Design, architect, develop, and implement a premier decentralized network on blockchain that allows for strong data security, excellent control of data, ease of integration, reduction of cost and creation of new profit centers.
+                                </li>
+                                <li>Integrate with apps built on Ethereum with Solidity / smart contracts, also work with Golang, Python and ReactJS.
+                                </li>
+                                <li>Craft a decentralized solution to a typically centralized problem from the ground up.
+                                </li>
+                                <li>Develop models within distributed computing frameworks.
+                                </li>
+                                <li>Maintain a well-tested codebase with continuous integration.
+                                </li>
+                            </ul>
+                            <br>
+                            <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style="font-size:13pt;color:rgb(0,0,0);background-color:transparent;font-weight:700;vertical-align:baseline;white-space:pre-wrap">What you need for this position</span><span style="font-size:11pt;color:rgb(0,0,0);background-color:transparent;vertical-align:baseline;white-space:pre-wrap">
+                        </span></p>
+                        <ul style="margin-top:0pt;margin-bottom:0pt;font-size: 11pt">
+                            <li>Experience in Go, building backends on Google Cloud/AWS/Azure
+                            </li>
+                            <li>Experience with continuous integration tools, git, test driven development. Experience launching backends is a plus.
+                            </li>
+                            <li>Basic understanding of networking concepts, distributed systems and basic concepts in database such as SQL, NoSql.
+                            </li>
+                            <li>Experience with Ethereum is a plus.
+                            </li>
+                        </ul>
+                        <br>
+                        <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style="font-size:13pt;color:rgb(0,0,0);background-color:transparent;font-weight:700;vertical-align:baseline;white-space:pre-wrap">What's in it for you</span><span style="font-size:11pt;color:rgb(0,0,0);background-color:transparent;vertical-align:baseline;white-space:pre-wrap">
+                        <ul style="margin-top:0pt;margin-bottom:0pt;font-size: 11pt">
+                            <li>Extensive Medical Coverage - health, dental, vision.
+                            </li>
+                            <li>Competitive salary package with early stage equity.
+                            </li>
+                            <li>All standard SF bay area startup perks.
+                            </li>
+                            <li>Flexible work hours. Come in at 1pm and leave at 9pm? You got it.
+                            </li>
+                            <li>Remote work option. Fancy traveling and working? You got it.
+                            </li>
+                        </ul>
+                        <br>
+                        </span><span style="color:rgb(0,0,0);background-color:transparent;vertical-align:baseline;white-space:pre-wrap"><b>Email your resume or linkedin/github profiles to: <a href="mailto:apply@picolo.network">apply@picolo.network</a></font></b></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<a href="#" class="back-to-top">
+    <i class="lni-arrow-up"></i>
+</a>
+<!-- Preloader -->
+<div id="preloader">
+    <div class="loader" id="loader-1"></div>
+</div>
+<!-- End Preloader -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="assets/js/jquery-min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/slick.min.js"></script>
+<script src="assets/js/wow.js"></script>
+<script src="assets/js/jquery.nav.js"></script>
+<script src="assets/js/scrolling-nav.js"></script>
+<script src="assets/js/jquery.easing.min.js"></script>
+<script src="assets/js/jquery.slicknav.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
-
 </html>

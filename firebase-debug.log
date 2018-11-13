@@ -1,0 +1,29 @@
+[debug] [2018-11-08T22:35:27.254Z] ----------------------------------------------------------------------
+[debug] [2018-11-08T22:35:27.255Z] Command:       /usr/local/Cellar/node/10.11.0/bin/node /usr/local/bin/firebase serve
+[debug] [2018-11-08T22:35:27.256Z] CLI Version:   5.1.1
+[debug] [2018-11-08T22:35:27.256Z] Platform:      darwin
+[debug] [2018-11-08T22:35:27.256Z] Node Version:  v10.11.0
+[debug] [2018-11-08T22:35:27.263Z] Time:          Thu Nov 08 2018 14:35:27 GMT-0800 (Pacific Standard Time)
+[debug] [2018-11-08T22:35:27.263Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-11-08T22:35:27.276Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-11-08T22:35:27.276Z] > authorizing via signed-in user
+[debug] [2018-11-08T22:35:27.277Z] [iam] checking project picolo-c5ea3 for permissions ["firebase.projects.get"]
+[debug] [2018-11-08T22:35:27.278Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-11-08T22:35:27.278Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2018-11-08T22:35:27.569Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-08T22:35:27.588Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/picolo-c5ea3:testIamPermissions  
+
+[debug] [2018-11-08T22:35:27.881Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-08T22:35:27.882Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/picolo-c5ea3  
+ 
+[debug] [2018-11-08T22:35:28.158Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/adi/work/projects/picolo-site'...
+[info] 
+[debug] [2018-11-08T22:35:28.160Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/923795077292/clients/_:getWebAppConfig  
+ 
+[debug] [2018-11-08T22:35:28.635Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
