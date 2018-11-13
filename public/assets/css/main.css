@@ -74,9 +74,14 @@ ul, ol {
   width: 100px;
 }
 
+.logo-div {
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
 .logo-big {
-  height: 50%;
-  width: 50%;
+  height: 40%;
+  width: 40%;
 }
 
 .follow-logo {
