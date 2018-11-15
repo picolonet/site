@@ -110,7 +110,6 @@ ul, ol {
   color: grey;
 }
 
-
 /*==================================================
  * Effect 1
  * ===============================================*/
@@ -174,6 +173,7 @@ ul, ol {
   margin-bottom: 0px;
   padding: 0 10px;
   position: relative;
+  margin-top: 75px;
 }
 
 .padding-none {

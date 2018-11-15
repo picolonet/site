@@ -134,7 +134,7 @@
 
       /* Job desc Toggle
       ========================================================*/
-      $('.job-desc').hide();
+      $('.job-desc').show();
 
       $('.job-title').on('click',function (e) {
           $('.job-desc').toggle();
