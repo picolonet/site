@@ -95,11 +95,11 @@ ul, ol {
   margin-right: 5px;
 }
 
-/*.job-title {
-  border: 2px solid grey;
-  padding: 10px;
-  border-radius: 2px;
-}*/
+.founder-follow-logo {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
 
 .job-title ul {
   font-size: 12pt;
@@ -110,10 +110,7 @@ ul, ol {
   color: grey;
 }
 
-/*.job-title {
-    border-radius: 5px;
-    border: 0.5px solid lightgrey;
-}*/
+
 /*==================================================
  * Effect 1
  * ===============================================*/
