@@ -30,7 +30,7 @@ h1, h2, h3 {
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 24px;
   color: black;
   font-weight: 700;
 }
@@ -61,6 +61,11 @@ ul, ol {
   padding-left: 12px;
 }
 
+#home {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
 .container {
   margin-left: 0;
 }
@@ -80,8 +85,8 @@ ul, ol {
 }
 
 .logo-big {
-  height: 40%;
-  width: 40%;
+  height: 30%;
+  width: 30%;
 }
 
 .follow-logo {
