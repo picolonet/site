@@ -140,15 +140,6 @@
           $('.job-desc').toggle();
       });
 
-      $('#fullpage').fullpage({
-        //options here
-        autoScrolling:true,
-        scrollHorizontally: false
-      });
-
-      //methods
-      $.fn.fullpage.setAllowScrolling(true);
-
   });      
 
 }(jQuery));
