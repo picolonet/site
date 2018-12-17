@@ -117,7 +117,7 @@
         }
       });
 
-      $('.back-to-top').on('click',function(event) {
+      $('.back-to-top,.logo-small,.picolo-name').on('click',function(event) {
         event.preventDefault();
         $('html, body').animate({
           scrollTop: 0

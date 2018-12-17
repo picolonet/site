@@ -89,6 +89,22 @@ ul, ol {
   width: 30%;
 }
 
+.logo-small {
+  height: 45px;
+  width: 45px;
+  margin-right: 10px;
+}
+
+.picolo-name {
+  text-transform: none; 
+  font-size: 18px
+}
+
+.arch-img {
+  height: 80%;
+  width: 80%;
+}
+
 .follow-logo {
   height: 25px;
   width: 25px;
